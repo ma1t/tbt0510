@@ -1,0 +1,213 @@
+.firstrow{
+	background-color: #00CCCC;
+	height: 50px;
+}
+
+.ftitle{
+	width: 930px;
+    color: white;
+    padding-left: 20px;
+    border:0px;
+}
+.row{
+	background-color: white;
+
+}
+.link{
+	 text-decoration: none;
+	 padding-right: 30px;
+	 color: white;
+	 font-family: Corbel;
+	 font-size: 16px;
+}
+#link{
+	 text-decoration: none;
+	 padding-left: 30px;
+	 color: white;
+	 font-family: Corbel;
+	 font-size: 16px;
+}
+
+.link:hover{
+	color: #FF00FF;
+	background-color: white;
+	border-radius: 5px;
+	border: 1px solid #989898;
+    padding: 10px; 
+    width: 10px;
+    height: 5px; 
+    font-family: Corbel;
+}
+#link:hover{
+	color: #FF00FF;
+	background-color: white;
+	border-radius: 5px;
+	border: 1px solid #989898;
+    padding: 10px; 
+    width: 10px;
+    height: 5px; 
+    font-family: Corbel;
+}
+table{
+	border-collapse:collapse;
+	vertical-align: middle;
+}
+.women{
+	text-align: center;
+	height: 500px;    
+}
+.women td{
+	border: 40px solid #F0F0F0;
+	width: 450px;
+	
+}
+.intro{
+	padding-left: 30px;
+	padding-right: 30px;
+	font-family: Malgun Gothic;
+	font-size: 14px;
+}
+.stitle{
+	
+    height: 40px;
+    text-align:center;
+    color:white;
+
+}
+.srow{
+   background-color: #707070;
+}
+.fw{
+	vertical-align: 8px;
+    font-family: Segoe UI Semibold;
+	font-size: 15px;
+}
+.up{
+    background-size: 20px;
+    margin-left: 20px;
+    float: left;   
+}
+.up img{
+	width: 20px;
+	height: 20px;
+}
+.up img:hover{
+	content:url(../images/changeup.png);
+	width: 20px;
+	height: 20px;
+}
+.down{
+    background-size: 20px;
+    margin-right: 20px;
+    float: right;   
+}
+.down img{
+	width: 20px;
+	height: 20px;
+}
+.down img:hover{
+	content:url(../images/changedown.png);
+	width: 20px;
+	height: 20px;
+}
+.org{
+	padding-left: 100px;
+	font-weight: bold;
+}
+.fun{
+	padding-left: 100px;
+	font-weight: bold;
+	padding-right: 30px;
+
+}
+.organ{
+	color: #33CCFF;
+	text-decoration: none;
+}
+.organ:hover{
+	color:#FF0033;
+}
+.organ1{
+    opacity: 0.8;
+}
+.organ1:hover{
+	background-color: white;
+	opacity: 10;
+}
+.trow{
+	background-color: #F0F0F0;
+	font-family: Corbel;
+	font-size: 16px;
+}
+.frow{
+	background-color: #F0F0F0;
+}
+img[alt="heart"]{
+	
+	height: 12px;
+	width: 12px;
+	padding-right: 15px;
+}
+img[alt="star"]{
+	height: 15px;
+	width: 15px;
+	padding-right: 15px;
+}
+.name{
+	font-family: Segoe UI Semibold;
+	font-size: 16px;
+	font-weight: bold;
+	color:#00CCCC; 
+}
+.year{
+	font-family: Segoe UI Semibold;
+	font-size: 10px;
+	color:#C8C8C8; 
+}
+.lightcolor{
+	opacity: 0.6;
+}
+.lightcolor:hover{
+	opacity: 10;
+}
+ul{
+	list-style-type: none;
+}
+li a{
+	text-decoration: none;
+}
+@-webkit-keyframes tilt{
+          0% {
+            -webkit-transform: translateX(3px) rotate(15deg);
+          }
+          100% {
+            -webkit-transform: translateX(-3px) rotate(-15deg);
+          }
+
+}
+
+#womenimg:hover{
+            -webkit-animation-name: tilt;
+            -webkit-animation-duration: 2s;
+            -webkit-animation-timing-function: linear;
+            -webkit-animation-iteration-count: 1;
+}
+.ul{
+	position: relative;
+}
+.advise{
+	position: absolute;
+	visibility:hidden;
+	top: 0px;
+	right: 10px;
+	/*vertical-align: bottom;*/
+    float: right;
+	padding-right: 60px;
+	height: 200px;
+	/*margin-bottom: 20px;*/
+}
+.organ:hover img{
+    visibility:visible;
+}.org p{
+	margin-bottom: 2px;
+}
